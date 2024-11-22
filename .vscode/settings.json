@@ -1,0 +1,47 @@
+{
+    "editor.formatOnType": true,
+    "files.autoSave": "afterDelay",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/built/**": true,
+        "**/node_modules/**": true,
+        "**/yotta_modules/**": true,
+        "**/yotta_targets": true,
+        "**/pxt_modules/**": true,
+        "**/.pxt/**": true
+    },
+    "files.associations": {
+        "*.blocks": "html",
+        "*.jres": "json"
+    },
+    "search.exclude": {
+        "**/built": true,
+        "**/node_modules": true,
+        "**/yotta_modules": true,
+        "**/yotta_targets": true,
+        "**/pxt_modules": true,
+        "**/.pxt": true
+    },
+    "files.exclude": {
+        "**/pxt_modules": true,
+        "**/.pxt": true
+    },
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "Run",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "sync",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ]
+}
