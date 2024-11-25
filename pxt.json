@@ -26,5 +26,9 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "blocksprj",
+    "card": {
+        "name": "微蓝课堂",
+        "imageUrl": "file:./icon.png"
+    }
 }
