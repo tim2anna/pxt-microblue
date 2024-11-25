@@ -13,7 +13,7 @@
         "main.blocks",
         "main.ts",
         "dstemp.ts",
-        "dstemp.cpp",
+        "blueTemp.cpp",
         "shims.d.ts",
         "enums.d.ts",
         "pxtparts.json",
