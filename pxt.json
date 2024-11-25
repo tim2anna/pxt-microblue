@@ -1,7 +1,8 @@
 {
-    "name": "microblue",
-    "version": "0.0.0",
-    "description": "micro:blue micro:bit",
+    "name": "MicroBlue",
+    "version": "0.0.1",
+    "description": "micro:blue micro:bit--微蓝课堂配套扩展软件包，学习交流请关注公众号",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
         "radio": "*",
@@ -10,7 +11,13 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "blueTemp.ts",
+        "ds18b20.cpp",
+        "pxtparts.json",
+        "parts/ds18b20probe.svg",
+        "_locales/zh-cn/microblue-string.json",
+        "_locales/zh-cn/microblue-jsdoc-string.json"
     ],
     "testFiles": [
         "test.ts"
