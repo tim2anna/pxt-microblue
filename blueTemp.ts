@@ -1,7 +1,8 @@
- //% color=#2494F4 
-//% icon="\uf0b2"
-//% block="DS Temp"
-namespace dstemp {
+//% color=#2494F4
+//% icon="\uf06c"
+//% block="blueTemp"
+//% blockId="blueTemp"
+namespace blueTemp {
     //% whenUsed
     let errorHandler:Action = null;
     //% whenUsed
@@ -13,26 +14,26 @@ namespace dstemp {
     const errorMsgs  = [ "No Error", "Not Connected", "Start Error", "Read Timeout", "Conversion Failure"];
 
     //% blockId="celsius" block="temperature (\u00B0\\C) on %pin|"
-    //% shim=dstemp::celsius
+    //% shim=blueTemp::celsius
     //% parts=dstemp trackArgs=0
     export function celsius(pin: DigitalPin) : number {
         return 32.6;
     }
 
     // Helper function
-    //% shim=dstemp::setErrorHandler
+    //% shim=blueTemp::setErrorHandler
     export function setErrorHandler(a: Action) {
         errorHandler = a; 
     }
 
     // Helper function
-    //% shim=dstemp::getErrorObjectIdx
+    //% shim=blueTemp::getErrorObjectIdx
     export function getErrorObjectIdx() : number {
         return errorObjectIdx;
     }
 
     // Helper function
-    //% shim=dstemp::getErrorPort
+    //% shim=blueTemp::getErrorPort
     export function getErrorPort() : number {
         return errorPort;
     }

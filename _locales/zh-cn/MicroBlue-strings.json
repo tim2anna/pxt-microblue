@@ -1,0 +1,6 @@
+{
+  "{id:category}blueTemp": "微蓝| 温度",
+  "blueTemp|block": "微蓝| 温度",
+  "blueTemp.celsius|block": "DS18B20传感器 %pin 温度(℃)",
+  "blueTemp.sensorError|block": "Temp. Sensor Error"
+}

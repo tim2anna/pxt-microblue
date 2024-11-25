@@ -1,5 +1,5 @@
 {
-    "dstemp": {
+    "blueTemp": {
         "visual": {
             "image": "parts/ds18b20probe.svg",
             "width": 54,
@@ -14,7 +14,7 @@
         "numberOfPins": 3,
         "instantiation": {
             "kind": "function",
-            "fullyQualifiedName": "dstemp.celsius",
+            "fullyQualifiedName": "blueTemp.celsius",
             "argumentRoles": [{
                     "pinInstantiationIdx": 0
                 }]

@@ -1,6 +1,6 @@
 {
     "name": "MicroBlue",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "micro:blue micro:bit--微蓝课堂配套扩展软件包，学习交流请关注公众号",
     "license": "MIT",
     "dependencies": {
@@ -12,12 +12,13 @@
         "README.md",
         "main.blocks",
         "main.ts",
-        "dstemp.ts",
+        "blueTemp.ts",
         "blueTemp.cpp",
         "shims.d.ts",
         "enums.d.ts",
         "pxtparts.json",
         "parts/ds18b20probe.svg",
+        "_locales/zh-cn/MicroBlue-strings.json",
         "icon.png"
     ],
     "testFiles": [
