@@ -98,7 +98,7 @@ using namespace pxt;
 #endif
 #endif
 
-namespace ds18b20 { 
+namespace dstemp { 
 
     // ************* Forward Decalarations
     void loopUntilSent(ManagedString str);

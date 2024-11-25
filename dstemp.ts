@@ -1,9 +1,7 @@
-//% color=#0000FF
-//% weight=100
-//% icon="\uf0d0"
-//% block="BlueTemp"
-//% blockId="BlueTemp"
-namespace BlueTemp {
+ //% color=#0000FF 
+//% icon="\uf2c8"
+//% block="DS Temp"
+namespace dstemp {
     //% whenUsed
     let errorHandler:Action = null;
     //% whenUsed

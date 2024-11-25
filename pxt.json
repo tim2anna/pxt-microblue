@@ -11,7 +11,13 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "dstemp.ts",
+        "dstemp.cpp",
+        "shims.d.ts",
+        "enums.d.ts",
+        "pxtparts.json",
+        "parts/ds18b20probe.svg"
     ],
     "testFiles": [
         "test.ts"
