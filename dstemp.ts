@@ -1,5 +1,5 @@
  //% color=#2494F4 
-//% icon="\uf533"
+//% icon="\uf0b2"
 //% block="DS Temp"
 namespace dstemp {
     //% whenUsed

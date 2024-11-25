@@ -1,5 +1,5 @@
 // Auto-generated. Do not edit.
-declare namespace dstemp {
+declare namespace blueTemp {
 }
 
 // Auto-generated. Do not edit. Really.
