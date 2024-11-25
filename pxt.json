@@ -11,13 +11,7 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts",
-        "blueTemp.ts",
-        "ds18b20.cpp",
-        "pxtparts.json",
-        "parts/ds18b20probe.svg",
-        "_locales/zh-cn/microblue-string.json",
-        "_locales/zh-cn/microblue-jsdoc-string.json"
+        "main.ts"
     ],
     "testFiles": [
         "test.ts"
