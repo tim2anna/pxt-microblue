@@ -17,7 +17,8 @@
         "shims.d.ts",
         "enums.d.ts",
         "pxtparts.json",
-        "parts/ds18b20probe.svg"
+        "parts/ds18b20probe.svg",
+        "icon.png"
     ],
     "testFiles": [
         "test.ts"
@@ -29,6 +30,7 @@
     "preferredEditor": "blocksprj",
     "card": {
         "name": "微蓝课堂",
-        "imageUrl": "file:./icon.png"
+        "imageUrl": "file:./icon.png",
+        "feedbackUrl": "https://mp.weixin.qq.com/s?__biz=MzkwNzc3NDgzOA==&mid=2247484563&idx=1&sn=116cc02fc548e806f76335b7bef2ed45&chksm=c0d55a8af7a2d39cd041d6b85cc49ad94af6a20c50b8a1df4adf6c161cc2b2c9b87afc78fc75#rd"
     }
 }
