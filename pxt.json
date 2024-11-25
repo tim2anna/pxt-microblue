@@ -1,5 +1,5 @@
 {
-    "name": "MicroBlue",
+    "name": "microblue",
     "version": "0.0.2",
     "description": "micro:blue micro:bit--微蓝课堂配套扩展软件包，学习交流请关注公众号",
     "license": "MIT",
@@ -11,14 +11,15 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts",
         "blueTemp.ts",
         "blueTemp.cpp",
         "shims.d.ts",
         "enums.d.ts",
         "pxtparts.json",
         "parts/ds18b20probe.svg",
-        "_locales/zh-cn/MicroBlue-strings.json",
+        "parts/ds18b20probe_icon.svg",
+        "_locales/zh-cn/microblue-strings.json",
+        "_locales/zh-cn/microblue-jsdoc-strings.json",
         "icon.png"
     ],
     "testFiles": [

@@ -15,7 +15,7 @@ namespace blueTemp {
 
     //% blockId="celsius" block="temperature (\u00B0\\C) on %pin|"
     //% shim=blueTemp::celsius
-    //% parts=dstemp trackArgs=0
+    //% parts=blueTemp trackArgs=0
     export function celsius(pin: DigitalPin) : number {
         return 32.6;
     }
