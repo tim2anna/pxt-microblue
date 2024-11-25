@@ -16,7 +16,7 @@
      * Distributed as-is; no warranty is given.
      */
 
-declare namespace dstemp {
+declare namespace blueTemp {
 }
 
 // Auto-generated. Do not edit. Really.
