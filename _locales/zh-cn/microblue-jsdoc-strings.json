@@ -1,5 +1,0 @@
-{
-  "blueTemp": "温度模块",
-  "blueTemp.sensorError": "Set a handler for errors",
-  "blueTemp.sensorError|param|errCallback": "错误处理 "
-}
