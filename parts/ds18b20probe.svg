@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="44" viewBox="-0.5 -0.5 63 44">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="20" viewBox="-0.5 -0.5 54 20">
   <defs/>
   <g data-cell-id="0">
     <g data-cell-id="1">
       <g data-cell-id="fYHpMLXZ4EYV6wVeUihl-1">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg927" width="54" height="20" x="2.5" y="23.5" style="font-family:initial" version="1.2" viewBox="0 0 40.333292 15.00001">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg927" width="54" height="20" x="-.5" y="-.5" style="font-family:initial" version="1.2" viewBox="0 0 40.333292 15.00001">
           <defs id="defs864">
             <linearGradient id="linearGradient5987">
               <stop id="stop5983" offset="0" style="stop-color:#000;stop-opacity:1"/>
@@ -39,16 +39,18 @@
         </svg>
       </g>
       <g data-cell-id="fYHpMLXZ4EYV6wVeUihl-2">
-        <path fill="none" d="M0 10h63v15H0z" pointer-events="all"/>
+        <path fill="none" d="M6 7h43v13H6z" pointer-events="all"/>
         <switch transform="translate(-.5 -.5)">
           <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
-            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe flex-end;justify-content:unsafe center;width:61px;height:1px;padding-top:22px;margin-left:1px">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe flex-end;justify-content:unsafe center;width:41px;height:1px;padding-top:17px;margin-left:7px">
               <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
-                <div style="display:inline-block;font-size:6px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                <div style="display:inline-block;font-size:4px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
                   <font color="#fff" data-font-src="https://fonts.googleapis.com/css?family=%E9%9A%B6%E4%B9%A6" face="隶书" style="background-color:#2494f4">
                     【微蓝课堂】
                     <br/>
-                    DS18B20温度传感器
+                    DS18B20
+                    <br/>
+                    温度传感器
                   </font>
                 </div>
               </div>

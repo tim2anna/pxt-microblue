@@ -17,7 +17,6 @@
         "enums.d.ts",
         "pxtparts.json",
         "parts/ds18b20probe.svg",
-        "parts/ds18b20probe_icon.svg",
         "_locales/zh-cn/microblue-strings.json",
         "_locales/zh-cn/microblue-jsdoc-strings.json",
         "icon.png"
