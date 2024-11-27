@@ -14,22 +14,26 @@ namespace blueTemp {
     const errorMsgs  = [ "No Error", "Not Connected", "Start Error", "Read Timeout", "Conversion Failure"];
 
     //% blockId="celsius" block="temperature (\u00B0\\C) on %pin|"
+    //% shim=blueTemp::celsius
     //% parts=blueTemp trackArgs=0
     export function celsius(pin: DigitalPin) : number {
         return 32.6;
     }
 
     // Helper function
+    //% shim=blueTemp::setErrorHandler
     export function setErrorHandler(a: Action) {
         errorHandler = a; 
     }
 
     // Helper function
+    //% shim=blueTemp::getErrorObjectIdx
     export function getErrorObjectIdx() : number {
         return errorObjectIdx;
     }
 
     // Helper function
+    //% shim=blueTemp::getErrorPort
     export function getErrorPort() : number {
         return errorPort;
     }

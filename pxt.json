@@ -18,8 +18,7 @@
         "enums.d.ts",
         "parts/ds18b20probe.svg",
         "_locales/zh-cn/microblue-strings.json",
-        "_locales/zh-cn/microblue-jsdoc-strings.json",
-        "icon.png"
+        "_locales/zh-cn/microblue-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
