@@ -13,7 +13,7 @@ namespace blueTemp {
     // TODO: Localization
     const errorMsgs  = [ "No Error", "Not Connected", "Start Error", "Read Timeout", "Conversion Failure"];
 
-    //% blockId="celsius" block="temperature (\u00B0\\C) on %pin|"
+    //% blockId="celsius" block="ds18b20 temperature (\u00B0\\C) on %pin|"
     //% shim=blueTemp::celsius
     //% parts=blueTemp trackArgs=0
     export function celsius(pin: DigitalPin) : number {
@@ -42,7 +42,7 @@ namespace blueTemp {
      * Set a handler for errors 
      * @param errCallback The error handler 
      */
-    //% blockId="error" block="temperature sensor error"
+    //% blockId="error" block="ds18b20 temperature sensor error"
     //% draggableParameters="reporter" weight=0
     export function sensorError(errCallback: (errorMessage: string, errorCode: number, port: number) => void) { 
         if(errCallback) {

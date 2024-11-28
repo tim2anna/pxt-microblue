@@ -1,5 +1,5 @@
 {
   "blueTemp": "温度模块",
-  "blueTemp.sensorError": "Set a handler for errors",
+  "blueTemp.sensorError": "DS18B20传感器发生错误时",
   "blueTemp.sensorError|param|errCallback": "错误处理 "
 }

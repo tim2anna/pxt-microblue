@@ -13,6 +13,7 @@
         "main.blocks",
         "blueTemp.ts",
         "blueTemp.cpp",
+        "blueButton.ts",
         "pxtparts.json",
         "shims.d.ts",
         "enums.d.ts",

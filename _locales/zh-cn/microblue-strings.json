@@ -2,5 +2,10 @@
   "{id:category}blueTemp": "微蓝丨温度",
   "blueTemp|block": "微蓝丨温度",
   "blueTemp.celsius|block": "DS18B20传感器 %pin 温度(℃)",
-  "blueTemp.sensorError|block": "DS18B20传感器发生错误时"
+  "blueTemp.sensorError|block": "DS18B20传感器发生错误时",
+  "{id:category}blueButton": "微蓝丨按钮",
+  "blueButton|block": "微蓝丨按钮",
+  "{id:group}PressButton": "按键按钮",
+  "blueButton.pressButton|block": "按键按钮 %pin 被按下",
+  "blueButton.onPressButtonEvent|block": "当按键按钮 %pin 被按下时"
 }
