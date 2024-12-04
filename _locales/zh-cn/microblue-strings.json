@@ -1,11 +1,23 @@
 {
   "{id:category}blueTemp": "微蓝丨温度",
   "blueTemp|block": "微蓝丨温度",
+  "{id:group}Ds18b20": "DS18B20",
   "blueTemp.celsius|block": "DS18B20传感器 %pin 温度(℃)",
   "blueTemp.sensorError|block": "DS18B20传感器发生错误时",
-  "{id:category}blueButton": "微蓝丨按钮",
-  "blueButton|block": "微蓝丨按钮",
+  "{id:group}Dht11": "DHT11",
+  "blueTemp.dht11TemperatureC|block": "DHT11传感器 %pin 摄氏温度(℃)",
+  "blueTemp.dht11TemperatureF|block": "DHT11传感器 %pin 华氏温度(℉)",
+  "blueTemp.dht11Humidity|block": "DHT11传感器 %pin 湿度(0~100)",
+  "{id:category}blueSwitch": "微蓝丨开关",
+  "blueSwitch|block": "微蓝丨开关",
   "{id:group}PressButton": "按键按钮",
-  "blueButton.pressButton|block": "按键按钮 %pin 被按下",
-  "blueButton.onPressButtonEvent|block": "当按键按钮 %pin 被按下时"
+  "blueSwitch.pressButton|block": "按键按钮 %pin 被按下",
+  "blueSwitch.onPressButtonEvent|block": "当按键按钮 %pin 被按下时",
+  "{id:group}TouchButton": "触摸按钮",
+  "blueSwitch.touchButton|block": "触摸按钮 %pin 被按下",
+  "blueSwitch.onTouchButtonEvent|block": "当触摸按钮 %pin 被按下时",
+  "{id:category}blueMotor": "微蓝丨电动",
+  "blueMotor|block": "微蓝丨电动",
+  "{id:group}Servo": "舵机",
+  "blueMotor.dsServo270|block": "德晟270℃舵机|%index|角度 %degree"
 }
