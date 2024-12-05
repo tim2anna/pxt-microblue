@@ -1,6 +1,6 @@
 {
     "name": "microblue",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "description": "micro:blue micro:bit--微蓝课堂配套扩展软件包，学习交流请关注公众号",
     "license": "MIT",
     "dependencies": {
