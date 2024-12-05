@@ -19,5 +19,10 @@
   "{id:category}blueMotor": "微蓝丨电动",
   "blueMotor|block": "微蓝丨电动",
   "{id:group}Servo": "舵机",
-  "blueMotor.dsServo270|block": "德晟270℃舵机|%index|角度 %degree"
+  "blueMotor.dsServo270|block": "德晟270°舵机|%index|角度 %degree",
+  "{id:group}Motor": "电机",
+  "blueMotor.Rotation.forward|block": "正转",
+  "blueMotor.Rotation.reverse|block": "反转",
+  "blueMotor.Rotation.stop|block": "停止",
+  "blueMotor.dsMotor360|block": "德晟360°电机|%index|%rotation|速度 %speed"
 }

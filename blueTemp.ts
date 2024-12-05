@@ -1,4 +1,4 @@
-//% color=#2494F4
+//% color=#ffa502
 //% icon="\uf06c"
 //% block="blueTemp"
 //% blockId="blueTemp"
@@ -14,7 +14,7 @@ namespace blueTemp {
     const errorMsgs  = [ "No Error", "Not Connected", "Start Error", "Read Timeout", "Conversion Failure"];
 
     //% blockId="celsius" block="ds18b20 temperature (\u00B0\\C) on %pin|"
-    //% group=Ds18b20 weight=99 color=#2494F4
+    //% group=Ds18b20 weight=99 color=#ffa502
     //% shim=blueTemp::celsius
     //% parts=blueTemp trackArgs=0
     export function celsius(pin: DigitalPin) : number {
@@ -44,7 +44,7 @@ namespace blueTemp {
      * @param errCallback The error handler 
      */
     //% blockId="error" block="ds18b20 temperature sensor error"
-    //% group=Ds18b20 weight=98 color=#2494F4
+    //% group=Ds18b20 weight=98 color=#ffa502
     //% draggableParameters="reporter" weight=0
     export function sensorError(errCallback: (errorMessage: string, errorCode: number, port: number) => void) { 
         if(errCallback) {
@@ -60,7 +60,7 @@ namespace blueTemp {
     }
 
     //% blockId="dht11TemperatureC" block="dht11 temperature (\u00B0\\C) on %pin|"
-    //% group=Dht11 weight=97 color=#2494F4
+    //% group=Dht11 weight=97 color=#ffa502
     export function dht11TemperatureC(pin: DigitalPin): number {
         pins.digitalWritePin(pin, 0)
 		basic.pause(18)
@@ -91,7 +91,7 @@ namespace blueTemp {
     }
 
     //% blockId="dht11TemperatureF" block="dht11 temperature (\u00B0\\F) on %pin|"
-    //% group=Dht11 weight=96 color=#2494F4
+    //% group=Dht11 weight=96 color=#ffa502
     export function dht11TemperatureF(pin: DigitalPin): number {
         pins.digitalWritePin(pin, 0)
 		basic.pause(18)
@@ -122,7 +122,7 @@ namespace blueTemp {
     }
 
     //% blockId="dht11Humidity" block="dht11 humidity (0~100) on %pin|"
-    //% group=Dht11 weight=95 color=#2494F4
+    //% group=Dht11 weight=95 color=#ffa502
     export function dht11Humidity(pin: DigitalPin): number {
         pins.digitalWritePin(pin, 0)
 		basic.pause(18)
