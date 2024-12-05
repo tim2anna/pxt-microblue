@@ -147,7 +147,6 @@ namespace blueMotor {
         // - 脉冲宽度（Pulse Width）：500μs-2500μs
         // - 信号高电平电压（Signal high voltage）：2V-5V
         // - 信号低电平电压（Signal low voltage）：0.0V
-        console.log(typeof index)
         if (index == AllServos.S1 || index == AllServos.S2 || index == AllServos.S3 || index == AllServos.S4
             || index == AllServos.S5 || index == AllServos.S6 || index == AllServos.S7 || index == AllServos.S8) {
             if (!initialized) {
@@ -184,8 +183,11 @@ namespace blueMotor {
         }
         if (index == AllServos.S1 || index == AllServos.S2 || index == AllServos.S3 || index == AllServos.S4
             || index == AllServos.S5 || index == AllServos.S6 || index == AllServos.S7 || index == AllServos.S8) {
+            if (!initialized) {
+                initPCA9685()
+            }
             pwm = us * 4096 / 20000;
-            setPwm(index, 0, pwm);
+            setPwm(index + 7, 0, pwm);
         } else {
             pwm = Math.floor(us / 2500 * 1023)
             pins.analogSetPeriod(index, 20000)
