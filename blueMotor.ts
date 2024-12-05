@@ -22,6 +22,11 @@ namespace blueMotor {
         stop = 3
     }
 
+    export enum Speed {
+        lowest = 1,
+
+    }
+
     export enum Servos {
         S1 = 0x01,
         S2 = 0x02,
@@ -156,7 +161,10 @@ namespace blueMotor {
             let value = v_us * 4096 / 20000
             setPwm(index + 7, 0, value)
         } else {
-            pins.servoWritePin(index, degree)
+            let us = (Math.floor((degree) * 2000 / 270) + 500)
+            let pwm = us / 2500 * 1023
+            pins.analogSetPeriod(index, 20000)
+            pins.analogWritePin(index, pwm)
         }
     }
 
@@ -189,7 +197,7 @@ namespace blueMotor {
             pwm = us * 4096 / 20000;
             setPwm(index + 7, 0, pwm);
         } else {
-            pwm = Math.floor(us / 2500 * 1023)
+            pwm = us / 2500 * 1023
             pins.analogSetPeriod(index, 20000)
             pins.analogWritePin(index, pwm)
         }
