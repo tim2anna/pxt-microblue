@@ -162,7 +162,7 @@ namespace blueMotor {
             setPwm(index + 7, 0, value)
         } else {
             let us = (Math.floor((degree) * 2000 / 270) + 500)
-            let pwm = us / 2500 * 1023
+            let pwm = us / 20000 * 1023
             pins.analogSetPeriod(index, 20000)
             pins.analogWritePin(index, pwm)
         }
@@ -197,7 +197,7 @@ namespace blueMotor {
             pwm = us * 4096 / 20000;
             setPwm(index + 7, 0, pwm);
         } else {
-            pwm = us / 2500 * 1023
+            pwm = us / 20000 * 1023
             pins.analogSetPeriod(index, 20000)
             pins.analogWritePin(index, pwm)
         }
