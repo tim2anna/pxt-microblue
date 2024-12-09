@@ -178,6 +178,14 @@ namespace blueMotor {
         // 脉冲宽度（Pulse Width）：500μs-2500μs
         // 信号高电平电压（Signal high voltage）：2V-5V
         // 信号低电平电压（Signal low voltage）：0.0V
+
+        // 速度值0~100，对过大和过小的速度值进行处理
+        if (speed > 100) {
+            speed = 100
+        } else if (speed < 0) {
+            speed = 0
+        }
+
         let us;
         let pwm;
         if (rotation == Rotation.stop) {
