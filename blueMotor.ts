@@ -157,11 +157,11 @@ namespace blueMotor {
             if (!initialized) {
                 initPCA9685()
             }
-            let v_us = (Math.floor((degree) * 2000 / 270) + 500)
+            let v_us = Math.floor((degree) * 2000 / 270) + 500
             let value = v_us * 4096 / 20000
             setPwm(index + 7, 0, value)
         } else {
-            let us = (Math.floor((degree) * 2000 / 270) + 500)
+            let us = Math.floor((degree) * 2000 / 270) + 500
             let pwm = us / 20000 * 1023
             pins.analogSetPeriod(index, 20000)
             pins.analogWritePin(index, pwm)
@@ -192,10 +192,10 @@ namespace blueMotor {
             us = 1500
         }
         else if(rotation == Rotation.forward){
-            us = (Math.floor((2500 - 1500) * speed / 100) + 1500)
+            us = Math.floor((2500 - 1500) * speed / 100) + 1500
         }
         else if(rotation == Rotation.reverse){
-            us = (1500 - Math.floor((1500 - 500) * speed / 100))
+            us = 1500 - Math.floor((1500 - 500) * speed / 100)
         }
         if (index == AllServos.S1 || index == AllServos.S2 || index == AllServos.S3 || index == AllServos.S4
             || index == AllServos.S5 || index == AllServos.S6 || index == AllServos.S7 || index == AllServos.S8) {
