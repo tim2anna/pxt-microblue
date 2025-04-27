@@ -24,5 +24,6 @@
   "blueMotor.Rotation.forward|block": "正转",
   "blueMotor.Rotation.reverse|block": "反转",
   "blueMotor.Rotation.stop|block": "停止",
-  "blueMotor.dsMotor360|block": "德晟360°电机|%index|%rotation|速度 %speed"
+  "blueMotor.dsMotor360|block": "德晟360°电机|%index|%rotation|速度 %speed",
+  "blueMotor.dcMotor|block": "直流电机|%index|%rotation|速度 %speed"
 }

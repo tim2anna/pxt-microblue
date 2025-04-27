@@ -212,5 +212,38 @@ namespace blueMotor {
         
     }
 
+    //% blockId=dcMotor block="DcMotor |%index|rotation %rotation|speed %speed"
+    //% group=Motor weight=98 color=#2ed573
+    //% speed.min=0 speed.max=100
+    export function dcMotor(index: AllServos, rotation: Rotation, speed: number): void {
+        // 速度值0~100，对过大和过小的速度值进行处理
+        if (speed > 100) {
+            speed = 100
+        } else if (speed < 0) {
+            speed = 0
+        }
+        
+        if (!initialized) {
+            initPCA9685()
+        }
+        speed = speed * 16; // map 255 to 4096
+        if (speed >= 4096) {
+            speed = 4095
+        }
+        if (speed <= -4096) {
+            speed = -4095
+        }
+        if (index > 4 || index <= 0)
+            return
+        let pp = (index - 1) * 2
+        let pn = (index - 1) * 2 + 1
+        if (speed >= 0) {
+            setPwm(pp, 0, speed)
+            setPwm(pn, 0, 0)
+        } else {
+            setPwm(pp, 0, 0)
+            setPwm(pn, 0, -speed)
+        }
+    }
 
 }
